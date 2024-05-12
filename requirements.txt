@@ -5,4 +5,4 @@ langchain-openai
 langchain-chroma 
 bs4
 pandas
-
+langchain-chroma
