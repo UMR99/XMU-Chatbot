@@ -6,4 +6,4 @@ langchain-chroma
 bs4
 pandas
 chromadb
-sqlite3
+sqlite
