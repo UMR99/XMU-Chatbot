@@ -78,7 +78,7 @@ for i in range(len(texts)):
 # 构建矢量库
 embedding = HuggingFaceEmbeddings(
     model_name="moka-ai/m3e-base",
-    model_kwargs={'device': 'cuda'},
+    # model_kwargs={'device': 'cuda'},
     encode_kwargs={'normalize_embeddings': True},
 )
 
