@@ -50,7 +50,7 @@ project_name = "YOUR PROJECT NAME"  # Update with your project name
 def get_docx_filenames(directory):
     os.chdir(directory)
     return glob.glob('*.docx')
-path = 'data/'
+path = './data/'
 file = get_docx_filenames(path)
 filename = [path + f for f in file]
 
