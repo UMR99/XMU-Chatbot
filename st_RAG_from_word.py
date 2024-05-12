@@ -47,10 +47,11 @@ project_name = "YOUR PROJECT NAME"  # Update with your project name
 
 
 # 文档库
+current_dir_path = os.path.dirname(os.path.realpath(__file__))
 def get_docx_filenames(directory):
     os.chdir(directory)
     return glob.glob('*.docx')
-path = './data/'
+path = current_dir_path
 file = get_docx_filenames(path)
 filename = [path + f for f in file]
 
